@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie';
 
-const URL = "conintact-backend.vercel.app/api/contacts/";
+const URL = "https://conintact-backend.vercel.app/api/contacts/";
 
 const sessionToken = Cookies.get("sessionToken");
 
