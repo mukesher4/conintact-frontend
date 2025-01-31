@@ -23,7 +23,7 @@ export const logInUser = async (userData) => {
 
 export const signUpUser = async (userData) => {
 	try{
-		const response = await fetch("conintact-backend.vercel.app/api/users/register", {
+		const response = await fetch("https://conintact-backend.vercel.app/api/users/register", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json; charset=utf-8"
@@ -47,7 +47,7 @@ export const getCurrentUser = async () => {
 	const sessionToken = document.cookie.split("=")[1];
 
 	try {
-		const response = await fetch("conintact-backend.vercel.app/api/users/current", {
+		const response = await fetch("https://conintact-backend.vercel.app/api/users/current", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/json",
