@@ -2,7 +2,7 @@ import Cookies from 'js-cookie';
 
 import { useState, useEffect } from 'react';
 
-const URL = (groupId) => `https://conintact-backend.vercel.app/api/group/${groupId}/contact/`;
+const URL = (groupId) => `http://localhost:5001/api/group/${groupId}/contact/`;
 
 const sessionToken = Cookies.get("sessionToken");
 
