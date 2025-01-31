@@ -1,6 +1,6 @@
 export const logInUser = async (userData) => {
 	try {
-		const response = await fetch("http://localhost:5001/api/users/login", {
+		const response = await fetch("conintact-backend.vercel.app/api/users/login", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json; charset=utf-8"
@@ -23,7 +23,7 @@ export const logInUser = async (userData) => {
 
 export const signUpUser = async (userData) => {
 	try{
-		const response = await fetch("http://localhost:5001/api/users/register", {
+		const response = await fetch("conintact-backend.vercel.app/api/users/register", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json; charset=utf-8"
@@ -47,7 +47,7 @@ export const getCurrentUser = async () => {
 	const sessionToken = document.cookie.split("=")[1];
 
 	try {
-		const response = await fetch("http://localhost:5001/api/users/current", {
+		const response = await fetch("conintact-backend.vercel.app/api/users/current", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/json",
@@ -70,7 +70,7 @@ export const updateUser = async (updatedUser) => {
 	const sessionToken = document.cookie.split("=")[1];
 
 	try {
-		const url = "http://localhost:5001/api/users/";
+		const url = "conintact-backend.vercel.app/api/users/";
 		
 		const response = await fetch(url, {
 			method: "PUT",
