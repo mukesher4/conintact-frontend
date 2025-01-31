@@ -24,7 +24,7 @@ const LinkModal = ({
     e.stopPropagation();
     if (inviteCode) {
       try {
-        await navigator.clipboard.writeText(`http://localhost:5175/group-invite/${inviteCode}/`);
+        await navigator.clipboard.writeText(`https://conintact-frontend.vercel.app/group-invite/${inviteCode}/`);
         setCopy("Copied!");
       } catch (error) {
         console.error("Failed to copy text:", error);
@@ -52,7 +52,7 @@ const LinkModal = ({
 			{inviteCode ? 
 				<span
         style={{ color: theme ? '#ffffff' : '#000000' }}
-        className="truncate">{`http://localhost:5173/group-invite/${inviteCode}/`}</span>
+        className="truncate">{`https://conintact-frontend.vercel.app/group-invite/${inviteCode}/`}</span>
 				:
 				<span
         style={{ color: theme ? '#ffffff' : '#000000' }}
