@@ -8,7 +8,7 @@ const useSessionCheck = (navigate, setSessionExpire) => {
 	useEffect(() => {
 		const interval = setInterval(async () => {
 		try {
-			const response = await fetch("conintact-backend.vercel.app/api/sessionStatus", {
+			const response = await fetch("https://conintact-backend.vercel.app/api/sessionStatus", {
 				method: "GET",
 				headers: {
 				Authorization: `Bearer ${sessionToken}`,
