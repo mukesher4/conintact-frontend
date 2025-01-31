@@ -40,7 +40,13 @@ const SettingDropDown = ({
       </div>
       
       {showProfileModal && (
-      	<ProfileModal currentUser={currentUser} setCurrentUser={setCurrentUser} toggleProfileModal={toggleProfileModal} onUpdateUser={onUpdateUser}/>
+      	<ProfileModal 
+        theme={theme}
+        currentUser={currentUser}
+        setCurrentUser={setCurrentUser}
+        toggleProfileModal={toggleProfileModal}
+        onUpdateUser={onUpdateUser}
+        />
       )}
     </div>
   );
