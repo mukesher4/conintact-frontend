@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie';
 
-const URL = "http://localhost:5001/api/invite/";
+const URL = "conintact-backend.vercel.app/api/invite/";
 
 const sessionToken = Cookies.get("sessionToken");
 
