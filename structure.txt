@@ -1,0 +1,22 @@
+src/
+├── assets/                # For static files (images, fonts, etc.)
+├── components/            # Reusable React components
+│   ├── Navbar.jsx         # Navigation bar
+│   ├── Footer.jsx         # Footer
+│   ├── Button.jsx         # Generic button component
+│   └── InputField.jsx     # Input component for forms
+├── pages/                 # Pages in your app (routes)
+│   ├── Home.jsx           # Home page
+│   ├── Contacts.jsx       # Page for managing contacts
+│   ├── AddContact.jsx     # Page to add a contact
+│   └── EditContact.jsx    # Page to edit a contact
+├── services/              # API service calls
+│   ├── contactService.js  # API calls for contacts (CRUD)
+│   └── userService.js     # API calls for user authentication
+├── styles/                # CSS or SCSS files
+│   ├── global.css         # Global styles
+│   └── components.css     # Component-specific styles
+├── App.jsx                # Main app component
+├── main.jsx               # Entry point for React and Vite
+├── router.jsx             # React Router configuration
+└── vite.config.js         # Vite configuration
