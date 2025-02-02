@@ -41,7 +41,7 @@ function SignUp() {
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div
             id="modal"
-            className="w-[400px] h-[500px] bg-[#121212] bg-opacity-90 rounded-lg p-8 shadow-xl mx-auto "
+            className="w-[400px] min-h-[500px] bg-[#121212] bg-opacity-90 rounded-lg p-8 shadow-xl mx-auto "
           >
             <h2 className="text-4xl font-bold mb-8 text-center text-white">
               Sign-Up
@@ -85,8 +85,8 @@ function SignUp() {
               )}
               <div className="flex justify-center gap-6">
                 <button
-                  type="submit"
-                  className="w-1/2 bg-[#222222] py-3 bg-blue-500 text-white rounded-lg text-xl transition duration-200"
+                type="submit"
+                className="w-1/2 py-3 bg-[#222222] text-white rounded-lg text-xl transition duration-200"
                 >
                   Submit
                 </button>
@@ -94,7 +94,7 @@ function SignUp() {
             </form>
             <p className="text-xl text-center mt-6 text-gray-300 text-lg">
               Already have an account?{" "}
-              <a href="../LogIn" className="text-[#d4a017] ">
+              <a href="../LogIn" className="text-[#d4a017]">
                 Log-In
               </a>{" "}
               now!
