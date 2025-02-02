@@ -49,7 +49,7 @@ function LogIn({
 			<div className="fixed inset-0 z-50 flex items-center justify-center">
 				<div
 				  id="modal"
-				  className="w-[400px] h-[400px] bg-[#121212] bg-opacity-90 rounded-lg p-8 shadow-xl mx-auto "
+				  className="w-[400px] min-h-[400px] bg-[#121212] bg-opacity-90 rounded-lg p-8 shadow-xl mx-auto "
 				>
 					<h2 className="text-4xl font-bold mb-8 text-center text-white">
 						Log In
