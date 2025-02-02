@@ -51,7 +51,7 @@ function SignUp() {
                 <input
                   type="email"
                   id="email"
-                  className="text-xl w-full p-3 bg-custom-gray rounded-lg text-white bg-transparent placeholder:text-gray-300"
+                  className="text-xl w-full p-3 bg-custom-gray rounded-lg text-white placeholder:text-gray-300"
                   value={email}
                   onChange={(event) => setEmail(event.target.value)}
                   required
@@ -62,7 +62,7 @@ function SignUp() {
                 <input
                   type="text"
                   id="username"
-                  className="w-full text-xl p-3 bg-custom-gray rounded-lg text-white bg-transparent placeholder:text-gray-300"
+                  className="w-full text-xl p-3 bg-custom-gray rounded-lg text-white placeholder:text-gray-300"
                   value={username}
                   onChange={(event) => setUsername(event.target.value)}
                   required
@@ -73,7 +73,7 @@ function SignUp() {
                 <input
                   type="password"
                   id="password"
-                  className="w-full text-xl p-3 bg-custom-gray rounded-lg text-white bg-transparent placeholder:text-gray-300"
+                  className="w-full text-xl p-3 bg-custom-gray rounded-lg text-white placeholder:text-gray-300"
                   value={password}
                   onChange={(event) => setPassword(event.target.value)}
                   required
